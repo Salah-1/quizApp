@@ -17,6 +17,6 @@ You can even pre-add the answers and each student will get his score upon submit
        - Ramdomize the question presentation to stuents so no cheating .
        - Let students get the grade upon submit or after after teacher clicks a button.
       
-  * TO see the use of typeScript classes, see the student class (file student.ts)
+  * TO see the use of typeScript classes, see the student class (file /src/app/student.ts)
  
 >>>>>>> 436b00b4ea0a47bfe691a261ac0ecd67195cbf2e
