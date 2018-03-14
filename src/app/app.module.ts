@@ -4,15 +4,25 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { QuizFormComponent } from './quiz-form/quiz-form.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { StartQuizComponent } from './start-quiz/start-quiz.component';
+import { AdminsterQuizComponent } from './adminster-quiz/adminster-quiz.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    QuizFormComponent,
+    HomePageComponent,
+    StartQuizComponent,
+    AdminsterQuizComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
